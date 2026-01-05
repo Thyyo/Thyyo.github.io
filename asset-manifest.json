@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Thyyo/Thyyo.github.io/static/css/main.5f705ade.css",
+    "main.js": "/Thyyo/Thyyo.github.io/static/js/main.8ff44186.js",
+    "index.html": "/Thyyo/Thyyo.github.io/index.html",
+    "main.5f705ade.css.map": "/Thyyo/Thyyo.github.io/static/css/main.5f705ade.css.map",
+    "main.8ff44186.js.map": "/Thyyo/Thyyo.github.io/static/js/main.8ff44186.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f705ade.css",
+    "static/js/main.8ff44186.js"
+  ]
+}
