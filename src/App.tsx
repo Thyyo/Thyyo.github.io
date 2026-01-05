@@ -1,26 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
+import Layout from './components/Layout';
+import Scene3D from './components/Scene3D';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save 11111111ывыввцавыаыаывываыаывааto reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Layout>
+      <div className="container">
+        <div className="info-section">
+          <h2>Добро пожаловать!</h2>
+          <p>Это моё портфолио 3D художника. Сайт находится в разработке.</p>
+          <p>Здесь будут мои работы, созданные с использованием Three.js, React и TypeScript.</p>
+        </div>
+        
+        <div className="scene-section">
+          <h3>Тестовая 3D сцена</h3>
+          <Scene3D />
+          <p className="scene-description">
+            Простая геометрическая фигура для демонстрации работы Three.js
+          </p>
+        </div>
+      </div>
+    </Layout>
   );
 }
 
-export default App;
+export default React.memo(App);

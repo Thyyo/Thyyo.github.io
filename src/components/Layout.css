@@ -1,0 +1,38 @@
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  text-align: center;
+  padding: 2rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.header p {
+  margin: 0.5rem 0 0;
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.footer {
+  text-align: center;
+  padding: 1.5rem;
+  background: #333;
+  color: white;
+}
